@@ -1,0 +1,40 @@
+body {
+    text-align: center;
+}
+
+h1, h2, h3 {
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+}
+
+#disclaimer {
+    color: #fff;
+    background-color: #1f7e9a;
+    min-height: 55em;
+    padding-top: 15%;
+    /*padding-bottom: 20em;*/
+}
+
+#description {
+    background-color: #fff;
+    min-height: 55em;
+    padding-top: 15%;
+}
+
+#about {
+    color: #fff;
+    background-color: #5cb85c;
+    min-height: 55em;
+    padding-top: 15%;
+}
+
+.container-fluid {
+    position: relative;
+}
+
+.insert {
+    background-color: #2aabd2;
+    /*background-size: 100px 100px;*/
+    /*width: 100%;*/
+    min-height: 180px;
+}
