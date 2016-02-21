@@ -26,6 +26,7 @@ h1, h2, h3 {
     background-color: #5cb85c;
     min-height: 55em;
     padding-top: 15%;
+    padding-bottom: 15%;
 }
 
 .container-fluid {
