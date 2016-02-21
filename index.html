@@ -49,7 +49,37 @@
             <h3>API Design</h3>
         </div>
         <div class="col-sm-2 col-sm-offset-5" style="padding-top: 3%">
-            <button type="button" class="btn btn-primary-outline btn-lg">Hire me</button>
+            <button type="button" class="btn btn-primary-outline btn-lg" data-toggle="modal" data-target="#myModal">Hire me</button>
+        </div>
+        <!-- Trigger the modal with a button -->
+        <!--<button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Open Modal</button>-->
+
+        <!-- Modal -->
+        <div id="myModal" class="modal fade" role="dialog">
+            <div class="modal-dialog">
+
+                <!-- Modal content-->
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                        <h4 class="modal-title">Contact</h4>
+                    </div>
+                    <div class="modal-body">
+                        <p>Feel free to send me some info on your needs and I'll get back to you as soon as possible.</p>
+                        <form action="http://pooleapp.com/stash/9711a93e-1d9c-488a-83ba-e28f725b73e9/" method="post">
+                            <input type="hidden" name="redirect_to" value="http://sixbroam.github.io" />
+                            <input type="text" name="mail" value="example@domain.com"/>
+                            <input type="text" name="name" value="Name"/>
+                            <input type="text" name="description" value="Describe your project here"/>
+                            <input type="submit" value="submit" />
+                        </form>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+
+            </div>
         </div>
     </div>
     <div class="row" id="description">
