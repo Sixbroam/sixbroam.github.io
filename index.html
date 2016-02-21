@@ -65,17 +65,26 @@
                         <h4 class="modal-title">Contact</h4>
                     </div>
                     <div class="modal-body">
+
                         <p>Feel free to send me some info on your needs and I'll get back to you as soon as possible.</p>
-                        <form action="http://pooleapp.com/stash/9711a93e-1d9c-488a-83ba-e28f725b73e9/" method="post">
-                            <input type="hidden" name="redirect_to" value="http://sixbroam.github.io" />
-                            <input type="text" name="mail" value="example@domain.com"/>
-                            <input type="text" name="name" value="Name"/>
-                            <input type="text" name="description" value="Describe your project here"/>
-                            <input type="submit" value="submit" />
-                        </form>
+                        <div class="form-group">
+                            <form role="form" action="http://pooleapp.com/stash/9711a93e-1d9c-488a-83ba-e28f725b73e9/" method="post">
+                                <input type="hidden" name="redirect_to" value="http://sixbroam.github.io" />
+
+                                <label for="mail">Mail:</label>
+                                <input type="text" class="form-control" id="mail" name="mail" value="example@domain.com" />
+
+                                <label for="name">Name:</label>
+                                <input type="text" class="form-control" id="name" name="name" value="Name"/>
+
+                                <label for="comment">Comment:</label>
+                                <textarea class="form-control" rows="5" id="comment"></textarea>
+                            </form>
+                        </div>
                     </div>
                     <div class="modal-footer">
-                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                        <button type="submit" class="btn btn-primary-outline">Submit</button>
+                        <!--<button type="button" class="btn btn-primary-outline" data-dismiss="modal">Close</button>-->
                     </div>
                 </div>
 
