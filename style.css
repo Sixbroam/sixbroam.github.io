@@ -43,12 +43,14 @@ input {
     min-height: 55em;
     padding-top: 12%;
     /*padding-bottom: 20em;*/
+    margin: 0 auto;
 }
 
 #description {
     background-color: #fff;
     min-height: 55em;
     padding-top: 15%;
+    margin: 0 auto;
 }
 
 #about {
@@ -57,4 +59,5 @@ input {
     min-height: 55em;
     padding-top: 15%;
     padding-bottom: 15%;
+    margin: 0 auto;
 }
