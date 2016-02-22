@@ -40,27 +40,17 @@
             <br>
         </div>
 
-        <div class="col-sm-2 col-sm-offset-3 insert">
-            <span class="ion-iphone" style="font-size: 72px"></span>
-            <h3>Mobile Development</h3>
+        <div class="col-sm-2 col-sm-offset-3 insert" id="mobile">
+            <span class="ion-iphone inner" style="font-size: 72px"></span>
+            <h3 class="inner">Mobile Development</h3>
         </div>
-        <div class="col-sm-2 insert">
-            <span class="ion-ios-monitor-outline" data-toggle="collapse" data-target="#demo" style="font-size: 72px"></span>
+        <div class="col-sm-2 insert" id="web">
+            <span class="ion-ios-monitor-outline" style="font-size: 72px"></span>
             <h3>Web Applications</h3>
         </div>
-        <div class="col-sm-2 insert">
+        <div class="col-sm-2 insert" id="api">
             <span class="ion-ios-gear-outline" style="font-size: 72px"></span>
             <h3>API Design</h3>
-        </div>
-
-        <div id="demo" class="collapse col-sm-6 col-sm-offset-3 insert">
-            Lorem ipsum dolor text....
-            Lorem ipsum dolor text....
-            Lorem ipsum dolor text....
-            Lorem ipsum dolor text....
-            Lorem ipsum dolor text....
-            zrgzzth
-            eth
         </div>
         <div class="col-sm-2 col-sm-offset-5" style="padding-top: 3%">
             <button type="button" class="btn btn-primary-outline btn-lg" data-toggle="modal" data-target="#myModal">Hire me</button>
@@ -163,4 +153,18 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.2/js/bootstrap.min.js" integrity="sha384-vZ2WRJMwsjRMW/8U7i6PWi6AlO1L79snBrmgiDpgIWJ82z8eA5lenwvxbMV1PAh7" crossorigin="anonymous"></script>
 </body>
+
+
+
+<script>
+    $( "#mobile" ).click(function() {
+        $( this ).empty().append('<p style="margin-top: 15%; margin-bottom: 20%">Get the advantages of native apps on iOs and Android with the Ionic Framework</p>');
+    });
+    $( "#web" ).click(function() {
+        $( this ).empty().append('<p style="margin-top: 15%; margin-bottom: 20%">Beautiful web sites with AngularJS and Bootstrap</p>');
+    });
+    $( "#api" ).click(function() {
+        $( this ).empty().append('<p style="margin-top: 15%; margin-bottom: 20%">RESTful webservices and backend with Django and Python</p>');
+    });
+</script>
 </html>
