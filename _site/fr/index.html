@@ -1,7 +1,3 @@
----
-title: Ambroise Rongère
----
-
 <!DOCTYPE html>
 <html lang="en" xmlns="http://www.w3.org/1999/html">
 <head>
@@ -19,7 +15,7 @@ title: Ambroise Rongère
     <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900">
     <link href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css" rel="stylesheet">
     <!--<title>Ambroise Rongère</title>-->
-    <title>{% t titles.home %}</title>
+    <title>French Title</title>
 </head>
 <body>
     <nav class="navbar navbar-default">
@@ -31,13 +27,10 @@ title: Ambroise Rongère
                 <!--<img src="https://lipis.github.io/flag-icon-css/flags/4x3/yt.svg" width="40px" height="30px" style="float: right">-->
                 <!--<h2 style="color: #fff"><b>fr</b></h2>-->
 
-                {% if site.lang == "fr" %}
-                    {% capture link1 %}{{ site.baseurl_root }}{{ page.url}}{% endcapture %}
-                    <a href="{{ link1 }}" class="btn btn-link btn-lg" style="color: #fff"><b>{% t global.english %}</b></a>
-                {% else if site.lang == "en" %}
-                    {% capture link2 %}{{ site.baseurl_root }}fr{{ page.url  }}{% endcapture %}
-                    <a href="{{ link2 }}" class="btn btn-link btn-lg" style="color: #fff"><b>{% t global.french %}</b></a>
-                {% endif %}
+                
+                    
+                    <a href="/" class="btn btn-link btn-lg" style="color: #fff"><b>en</b></a>
+                
 
                 <!--<a class="btn btn-link btn-lg" href="" style="color: #fff"><b>fr</b></a>-->
             </div>
@@ -52,24 +45,24 @@ title: Ambroise Rongère
                 <!--and I create apps-->
             <!--</h1>-->
 
-            <h1>{% t texts.presentation %}</h1>
+            <h1>Bonjour, je m'appelle <b>Ambroise</b><br> et je suis développeur</h1>
             <br>
         </div>
 
         <div class="col-sm-2 col-sm-offset-3 insert" id="mobile">
             <span class="ion-iphone inner" style="font-size: 72px"></span>
-            <h3 class="inner">{% t texts.mobile_caption %}</h3>
+            <h3 class="inner">Développement Mobile</h3>
         </div>
         <div class="col-sm-2 insert" id="web">
             <span class="ion-ios-monitor-outline" style="font-size: 72px"></span>
-            <h3>{% t texts.web_caption %}</h3>
+            <h3>Web Apps</h3>
         </div>
         <div class="col-sm-2 insert" id="api">
             <span class="ion-ios-gear-outline" style="font-size: 72px"></span>
-            <h3>{% t texts.backend_caption %}</h3>
+            <h3>Création API</h3>
         </div>
         <div class="col-sm-2 col-sm-offset-5" style="padding-top: 3%">
-            <button type="button" class="btn btn-primary-outline btn-lg" data-toggle="modal" data-target="#myModal">{% t texts.contact_button %}</button>
+            <button type="button" class="btn btn-primary-outline btn-lg" data-toggle="modal" data-target="#myModal">Contactez-moi</button>
         </div>
         <!-- Trigger the modal with a button -->
         <!--<button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Open Modal</button>-->
@@ -82,27 +75,27 @@ title: Ambroise Rongère
                 <div class="modal-content">
                     <div class="modal-header">
                         <button type="button" class="close" data-dismiss="modal">&times;</button>
-                        <h4 class="modal-title">{% t texts.contact_title %}</h4>
+                        <h4 class="modal-title">Comment puis-je vous aider ?</h4>
                     </div>
                     <div class="form-group">
                         <form role="form" method="post">
                             <div class="modal-body">
 
-                                <p>{% t texts.contact_body %}</p>
+                                <p>Dites-m'en davantage et je reviendrai vers vous dès que possible.</p>
                                     <input type="hidden" name="redirect_to" value="http://sixbroam.github.io" />
 
-                                    <label for="mail">{% t texts.mail %}:</label>
-                                    <input type="email" class="form-control" id="mail" name="mail" placeholder="{% t texts.contact_mail %}"/>
+                                    <label for="mail">Mail:</label>
+                                    <input type="email" class="form-control" id="mail" name="mail" placeholder="Entrez votre mail"/>
 
-                                    <label for="name">{% t texts.name %}:</label>
-                                    <input type="text" class="form-control" id="name" name="name" placeholder="{% t texts.contact_name%}"/>
+                                    <label for="name">Nom:</label>
+                                    <input type="text" class="form-control" id="name" name="name" placeholder="Entrez votre nom"/>
 
-                                    <label for="comment">{% t texts.comment %}:</label>
-                                    <textarea class="form-control" rows="8" id="comment" name="comment" placeholder="{% t texts.contact_comment %}"></textarea>
+                                    <label for="comment">Commentaire:</label>
+                                    <textarea class="form-control" rows="8" id="comment" name="comment" placeholder="Décrivez votre projet"></textarea>
                             </div>
                             <div class="modal-footer">
                                 <!--<button type="button" class="btn btn-primary-outline" data-dismiss="modal">Close</button>-->
-                                <button type="submit" formaction="http://pooleapp.com/stash/9711a93e-1d9c-488a-83ba-e28f725b73e9/" class="btn btn-primary-outline">{% t texts.send %}</button>
+                                <button type="submit" formaction="http://pooleapp.com/stash/9711a93e-1d9c-488a-83ba-e28f725b73e9/" class="btn btn-primary-outline">Envoyer</button>
                             </div>
                         </form>
                     </div>
@@ -113,31 +106,31 @@ title: Ambroise Rongère
     </div>
     <div class="row" id="description">
         <div class="col-md-8 col-md-offset-2">
-            <h1>{% t texts.work_headline %}</h1>
+            <h1>Quelques mots sur ce que je <b>fais</b></h1>
             <br>
         </div>
         <div class="col-sm-3 col-md-offset-3">
             <span class="ion-briefcase" style="font-size: 72px"></span>
             <p>
-                {% t texts.work_history %}
+                J'ai développé des APIs et des outils d'administration pour des clients tels que <b>adidas</b> pendant plusieurs années. J'ai également aidé à créer un outil de visualisation d'indicateurs économiques pour la <b>Commission Européenne</b>.
             </p>
         </div>
         <div class="col-sm-3">
             <span class="ion-ios-lightbulb" style="font-size: 72px"></span>
-            <p>{% t texts.work_philosophy %}</p>
+            <p>Dans le travail, ma philosophie est claire :<br> J'aime que les choses soient simples et efficaces. Je m'assure de trouver la <b>meilleure solution</b> pour vos utilisateurs.</p>
         </div>
         <div class="col-sm-6 col-md-offset-3">
-            <h3>{% t texts.work_punchline %}</h3>
+            <h3>À présent, je veux <b>vous</b> aider à atteindre l'étape supérieure.</h3>
         </div>
     </div>
     <div class="row" id="about">
 
-        <h1>{% t texts.about_headline %}</h1>
+        <h1>À propos de <b>moi</b></h1>
         <p>
             <img src="self_pic.jpg" style="border-radius: 50%; width: 200px; height: 200px">
         </p>
         <div class="col-md-6 col-md-offset-3">
-            <p>{% t texts.about_description%}</p>
+            <p>Passionné par mon activité de <b>développeur freelance</b>, fan de tennis, je lis beaucoup et j'aime voyager.<br>Je suis également curieux dès qu'il s'agit de sciences.</p>
         </div>
         <div class="col-md-1 col-md-offset-4 col-xs-3">
             <span class="ion-ionic" style="font-size: 72px"></span>

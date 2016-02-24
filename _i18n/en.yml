@@ -1,0 +1,31 @@
+global:
+    french: fr
+
+titles:
+    home: English title
+
+texts:
+    name: Name
+    mail: Mail
+    comment: Comment
+    send: Send
+
+    presentation: Hey, my name is <b>Ambroise</b><br>and I create apps
+    mobile_caption: Mobile Development
+    web_caption: Web Applications
+    backend_caption: API Design
+    contact_button: Hire me
+    contact_title: How can I help you ?
+    contact_body: Feel free to send me some info on your needs and I'll get back to you as soon as possible.
+    contact_mail: Enter mail
+    contact_name: Enter name
+    contact_comment: Describe your project
+
+    work_headline: A quick word about what I <b>do</b>
+    work_history: I've been building APIs and administration tools for clients such as <b>adidas</b> for several years. I also helped develop an economical indicators viewer at the <b>European Commission</b>.
+    work_philosophy: When I work, my philosophy is crystal clear :<br> I like things to be simple, and I like them to be smart. I make sure we create together the best solution for your users.
+    work_punchline: Now, I want to help <b>you</b> bring your ideas and business to the next level.
+
+    about_headline: Something about <b>me</b>
+    about_description: Passionate about what I do as a <b>freelance developer</b>, I love tennis, read a lot and I've travelled around the world.<br>Everything that has science in it will get me hooked, too.
+

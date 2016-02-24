@@ -1,0 +1,67 @@
+body {
+    text-align: center;
+}
+
+h1, h2, h3 {
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+}
+
+input {
+    color: #8c8c8c;
+}
+
+.navbar {
+    float: right;
+    background-color: #1f7e9a;
+}
+
+.btn-primary-outline, .btn-primary-outline:hover, .btn-primary-outline:active, .btn-primary-outline:focus {
+    background-color: transparent;
+    border-color: #fff;
+    color: #fff;
+}
+
+.navbar-brand {
+    color: #fff;
+}
+
+.insert {
+    background-color: #2aabd2;
+    /*background-size: 100px 100px;*/
+    /*width: 100%;*/
+    min-height: 180px;
+}
+
+.modal-content {
+    background-color: coral;
+}
+
+#disclaimer {
+    color: #fff;
+    background-color: #1f7e9a;
+    min-height: 55em;
+    padding-top: 12%;
+    padding-bottom: 12%;
+    margin: 0 auto;
+}
+
+#description {
+    background-color: #fff;
+    min-height: 55em;
+    padding-top: 12%;
+    padding-bottom: 12%;
+    /*padding-top: 15%;*/
+    margin: 0 auto;
+}
+
+#about {
+    color: #fff;
+    background-color: #5cb85c;
+    min-height: 55em;
+    padding-top: 12%;
+    padding-bottom: 12%;
+    /*padding-top: 15%;*/
+    /*padding-bottom: 15%;*/
+    margin: 0 auto;
+}

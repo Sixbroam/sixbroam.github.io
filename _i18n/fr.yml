@@ -1,0 +1,33 @@
+global:
+    english: en
+
+titles:
+    home: French Title
+
+texts:
+    name: Nom
+    mail: Mail
+    comment: Commentaire
+    send: Envoyer
+
+    mobile_caption: Développement Mobile
+    web_caption: Web Apps
+    backend_caption: Création API
+
+    presentation: Bonjour, je m'appelle <b>Ambroise</b><br> et je suis développeur
+
+    contact_button: Contactez-moi
+    contact_title: Comment puis-je vous aider ?
+    contact_body: Dites-m'en davantage et je reviendrai vers vous dès que possible.
+    contact_mail: Entrez votre mail
+    contact_name: Entrez votre nom
+    contact_comment: Décrivez votre projet
+
+    work_headline: Quelques mots sur ce que je <b>fais</b>
+    work_history: J'ai développé des APIs et des outils d'administration pour des clients tels que <b>adidas</b> pendant plusieurs années. J'ai également aidé à créer un outil de visualisation d'indicateurs économiques pour la <b>Commission Européenne</b>.
+    work_philosophy: Dans le travail, ma philosophie est claire :<br> J'aime que les choses soient simples et efficaces. Je m'assure de trouver la <b>meilleure solution</b> pour vos utilisateurs.
+    work_punchline: À présent, je veux <b>vous</b> aider à atteindre l'étape supérieure.
+
+    about_headline: À propos de <b>moi</b>
+    about_description: Passionné par mon activité de <b>développeur freelance</b>, fan de tennis, je lis beaucoup et j'aime voyager.<br>Je suis également curieux dès qu'il s'agit de sciences.
+
